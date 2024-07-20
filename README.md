@@ -1,33 +1,48 @@
-I support RCB in IPL. It is well known fact that they never won any IPL title by the time of writing this.
+Sure! Here's the README.md file with more emojis added:
 
-They often fail in the pressure situations and knock out matches. 
+---
 
-I feel like if I can create a model that when given both teams as input, will generate the SWOT analysis and one can prepare according to it.
+# 🏏 IPL PLyaer SWOT Analysis Model
 
-There are several inputs to be taken and I feel like this is a great start to my learning journey.
+## Introduction
 
-There are several steps in building a production grade end-to-end model
-1. Data Collection
-2. Preprocessing and preparing your data
-3. selecting the right machine learning model
-4. Training your machine learning model
-5. Evaluating model performance
-6. Tuning and Optimizing your model
-7. Deploying the model and making predictions
+I support RCB in IPL. It's a well-known fact that they haven't won any IPL title by the time of writing this. They often falter under pressure, especially in knockout matches.
 
-Let's start with Data Collection. The Data sources should be defined. In my opnion there are two kinds of data. 
-1. The enermous stats that every one is familiar with and these are even displayed in the matches itself
-2. The subjective aspect - being the commentery.
+## Project Idea
 
-The number are very useful. But they never capture the complete picture. So it is wise to add one more dimension to it.
-The commentery capture these details like the field placement, the strong and weak zones of the cricketer. The mental attitude to it. 
+I believe that creating a model that generates a SWOT analysis for teams given as input can help prepare better for matches. This project will be a great start to my machine learning journey. 🎓
 
-But stats are structured and commentery isn't. So the best way is to create a model is using neural networks. But let's not jump ahead of steps.
+## Project Steps
 
-Let us start with Data Collection. 
+1. **Data Collection** 📊
+2. **Preprocessing and Preparing Data** 🛠️
+3. **Selecting the Right Machine Learning Model** 🤖
+4. **Training the Machine Learning Model** 🏋️‍♂️
+5. **Evaluating Model Performance** 📈
+6. **Tuning and Optimizing the Model** 🔧
+7. **Deploying the Model and Making Predictions** 🚀
 
-There are two kinds of data generated 
-1. Event data - The stats that we've discussed and
-2. Tracking data ( private) - the ball tracking data, used to determine the path, false-shot rate etc., this is huge data and is not available to public.
+## Data Collection
 
-Now I've gone through the stats data and found out - https://www.espncricinfo.com/records/trophy/team-match-results/indian-premier-league-117 this to be a nice fit to start on.
+### Types of Data
+
+1. **Event Data** - The familiar stats displayed during matches. 📅
+2. **Subjective Data** - Commentary that captures details like field placement, strong and weak zones of players, and mental attitude. 🎙️
+
+### Sources
+
+- **Event Data**: ESPN Cricinfo's [IPL Team Match Results](https://www.espncricinfo.com/records/trophy/team-match-results/indian-premier-league-117) is a good starting point. 🏏
+- **Commentary Data**: ESPN provides commentary data, which needs to be accessed using web scraping techniques. 🌐
+
+### Data Generation
+
+1. **Event Data**: Stats discussed above. 📋
+2. **Tracking Data** (private): Ball tracking data, which includes details like the path and false-shot rate, is not publicly available. 🔍
+
+## Next Steps
+
+1. **Building Pipelines for Data Collection**: Using web scraping to access data from ESPN and other sources. 🕸️
+
+---
+
+Feel free to customize further or add more details as you progress with your project! 🚀
