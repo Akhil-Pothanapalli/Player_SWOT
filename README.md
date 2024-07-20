@@ -35,10 +35,7 @@ I believe that creating a model that generates a SWOT analysis for teams given a
 - **Event Data**: ESPN Cricinfo's [IPL Team Match Results](https://www.espncricinfo.com/records/trophy/team-match-results/indian-premier-league-117) is a good starting point. 🏏
 - **Commentary Data**: ESPN provides commentary data, which needs to be accessed using web scraping techniques. 🌐
 
-## Next Steps
+This is my first time implementing web scrapping, and not all websites allow you to do it. Luckily espn allows to do so. I found that they even have a python library for it. 
+Now I don't have to invent the wheel again.
 
-1. **Building Pipelines for Data Collection**: Using web scraping to access data from ESPN and other sources. 🕸️
 
----
-
-Feel free to customize further or add more details as you progress with your project! 🚀
