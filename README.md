@@ -25,3 +25,9 @@ The commentery capture these details like the field placement, the strong and we
 But stats are structured and commentery isn't. So the best way is to create a model is using neural networks. But let's not jump ahead of steps.
 
 Let us start with Data Collection. 
+
+There are two kinds of data generated 
+1. Event data - The stats that we've discussed and
+2. Tracking data ( private) - the ball tracking data, used to determine the path, false-shot rate etc., this is huge data and is not available to public.
+
+Now I've gone through the stats data and found out - https://www.espncricinfo.com/records/trophy/team-match-results/indian-premier-league-117 this to be a nice fit to start on.
