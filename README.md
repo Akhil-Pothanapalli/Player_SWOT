@@ -28,16 +28,12 @@ I believe that creating a model that generates a SWOT analysis for teams given a
 
 1. **Event Data** - The familiar stats displayed during matches. 📅
 2. **Subjective Data** - Commentary that captures details like field placement, strong and weak zones of players, and mental attitude. 🎙️
+3. **Tracking Data** (private): Ball tracking data, which includes details like the path and false-shot rate, is not publicly available. So let's skip this. 🔍
 
 ### Sources
 
 - **Event Data**: ESPN Cricinfo's [IPL Team Match Results](https://www.espncricinfo.com/records/trophy/team-match-results/indian-premier-league-117) is a good starting point. 🏏
 - **Commentary Data**: ESPN provides commentary data, which needs to be accessed using web scraping techniques. 🌐
-
-### Data Generation
-
-1. **Event Data**: Stats discussed above. 📋
-2. **Tracking Data** (private): Ball tracking data, which includes details like the path and false-shot rate, is not publicly available. 🔍
 
 ## Next Steps
 
