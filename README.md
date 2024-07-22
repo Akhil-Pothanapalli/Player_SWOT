@@ -1,8 +1,4 @@
-Sure! Here's the README.md file with more emojis added:
-
----
-
-# 🏏 IPL PLyaer SWOT Analysis Model
+# 🏏 IPL Player SWOT Analysis Model
 
 ## Introduction
 
